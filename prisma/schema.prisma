@@ -1,0 +1,99 @@
+// This is your Prisma schema file,
+// learn more about it in the docs: https://pris.ly/d/prisma-schema
+
+generator client {
+  provider = "prisma-client-js"
+}
+
+datasource db {
+  provider = "sqlite"
+  url      = env("DATABASE_URL")
+}
+
+enum Role {
+  KORISNIK
+  MAJSTOR
+  VOLONTER
+  ADMIN
+}
+
+enum StatusObjave {
+  AKTIVNA
+  U_TOKU
+  ZAVRSENA
+  OBRISANA
+}
+
+model User {
+  id          String   @id @default(cuid())
+  ime         String
+  email       String   @unique
+  lozinka     String
+  role        Role     @default(KORISNIK)
+  grad        String?
+  bio         String?
+  telefon     String?
+  ocena       Float    @default(0)
+  brojOcena   Int      @default(0)
+  aktivan     Boolean  @default(true)
+  createdAt   DateTime @default(now())
+  updatedAt   DateTime @updatedAt
+
+  objave      Objava[]
+  ponude      Ponuda[]
+  oceneDate   Ocena[]  @relation("OcenaAutor")
+  ocenePrimljene Ocena[] @relation("OcenaMajstor")
+
+  @@map("users")
+}
+
+model Objava {
+  id          String       @id @default(cuid())
+  naslov      String
+  opis        String?
+  kategorija  String
+  grad        String
+  adresa      String?
+  lat         Float?
+  lng         Float?
+  slika       String?
+  status      StatusObjave @default(AKTIVNA)
+  createdAt   DateTime     @default(now())
+  updatedAt   DateTime     @updatedAt
+
+  autor       User         @relation(fields: [autorId], references: [id], onDelete: Cascade)
+  autorId     String
+  ponude      Ponuda[]
+
+  @@map("objave")
+}
+
+model Ponuda {
+  id        String   @id @default(cuid())
+  poruka    String
+  prihvacena Boolean @default(false)
+  createdAt DateTime @default(now())
+
+  majstor   User     @relation(fields: [majstorId], references: [id], onDelete: Cascade)
+  majstorId String
+  objava    Objava   @relation(fields: [objavaId], references: [id], onDelete: Cascade)
+  objavaId  String
+
+  @@unique([majstorId, objavaId])
+  @@map("ponude")
+}
+
+model Ocena {
+  id        String   @id @default(cuid())
+  vrednost  Int
+  komentar  String?
+  createdAt DateTime @default(now())
+
+  autor     User     @relation("OcenaAutor", fields: [autorId], references: [id], onDelete: Cascade)
+  autorId   String
+  majstor   User     @relation("OcenaMajstor", fields: [majstorId], references: [id], onDelete: Cascade)
+  majstorId String
+
+  @@unique([autorId, majstorId])
+  @@map("ocene")
+}
