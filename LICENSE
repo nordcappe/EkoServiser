@@ -1,24 +1,35 @@
-BSD 2-Clause License
+EkoServiser Attribution License
+Copyright (c) 2026 nordcappe (https://github.com/nordcappe)
 
-Copyright (c) 2026, Milorad Vostic
+Permission is hereby granted, free of charge, to any person obtaining a copy
+of this software and associated documentation files (the "Software"), to use,
+copy, modify, and distribute the Software for any purpose, commercial or
+non-commercial, subject to the following conditions:
 
-Redistribution and use in source and binary forms, with or without
-modification, are permitted provided that the following conditions are met:
+1. ATTRIBUTION REQUIRED
+   Any copy, fork, derivative work, or deployment of the Software — whether
+   publicly hosted, distributed, or published — must include a clear and
+   visible credit to the original author:
 
-1. Redistributions of source code must retain the above copyright notice, this
-   list of conditions and the following disclaimer.
+       Originally created by nordcappe — https://github.com/nordcappe/EkoServiser
 
-2. Redistributions in binary form must reproduce the above copyright notice,
-   this list of conditions and the following disclaimer in the documentation
-   and/or other materials provided with the distribution.
+   This notice must appear in the source code (e.g. README), in any
+   documentation, and in any user-facing "About" or footer section if one exists.
 
-THIS SOFTWARE IS PROVIDED BY THE COPYRIGHT HOLDERS AND CONTRIBUTORS "AS IS"
-AND ANY EXPRESS OR IMPLIED WARRANTIES, INCLUDING, BUT NOT LIMITED TO, THE
-IMPLIED WARRANTIES OF MERCHANTABILITY AND FITNESS FOR A PARTICULAR PURPOSE ARE
-DISCLAIMED. IN NO EVENT SHALL THE COPYRIGHT HOLDER OR CONTRIBUTORS BE LIABLE
-FOR ANY DIRECT, INDIRECT, INCIDENTAL, SPECIAL, EXEMPLARY, OR CONSEQUENTIAL
-DAMAGES (INCLUDING, BUT NOT LIMITED TO, PROCUREMENT OF SUBSTITUTE GOODS OR
-SERVICES; LOSS OF USE, DATA, OR PROFITS; OR BUSINESS INTERRUPTION) HOWEVER
-CAUSED AND ON ANY THEORY OF LIABILITY, WHETHER IN CONTRACT, STRICT LIABILITY,
-OR TORT (INCLUDING NEGLIGENCE OR OTHERWISE) ARISING IN ANY WAY OUT OF THE USE
-OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
+2. CONTRIBUTIONS
+   Contributions to this repository (bug fixes, features, improvements) are
+   welcome via pull requests on GitHub. By submitting a pull request, you agree
+   that:
+   a) The original author (nordcappe) has sole discretion to accept, reject,
+      or modify any contribution.
+   b) Accepted contributions become part of the project under this same license.
+   c) You retain credit for your contribution in the Git history.
+
+3. FORKS
+   You are free to fork and maintain your own version of the Software. Forks
+   must comply with the attribution requirement in Section 1.
+
+4. NO WARRANTY
+   THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+   IMPLIED. IN NO EVENT SHALL THE AUTHOR BE LIABLE FOR ANY CLAIM, DAMAGES OR
+   OTHER LIABILITY ARISING FROM THE USE OF THE SOFTWARE.

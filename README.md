@@ -246,7 +246,25 @@ Dostupni nakon pokretanja `npm run db:seed`:
 
 ## Licenca
 
-Distribuira se pod [MIT licencom](LICENSE). Slobodno za lično i komercijalno korišćenje.
+Ovaj projekat koristi **EkoServiser Attribution License** — prilagođenu licencu zasnovanu na MIT-u.
+
+### Šta smeš
+- ✅ Koristiti projekat lično i komercijalno
+- ✅ Forkati i modifikovati kod
+- ✅ Distribuirati izmenjene verzije
+
+### Šta moraš
+- 🔖 **Obavezna atribucija** — u svakoj kopiji, forku ili deployu mora biti vidljivo navedeno:
+  ```
+  Originally created by nordcappe — https://github.com/nordcappe/EkoServiser
+  ```
+
+### Doprinosi (Contributions)
+- Slobodno otvori **Pull Request** sa poboljšanjima, ispravkama ili novim funkcijama
+- Svaki PR prolazi kroz review — autor ([nordcappe](https://github.com/nordcappe)) odlučuje da li se merge-uje
+- Prihvaćeni doprinosi ulaze u projekat pod istom licencom, a tvoje ime ostaje u Git historiji
+
+Pun tekst licence: [LICENSE](LICENSE)
 
 ---
 
@@ -255,124 +273,3 @@ Distribuira se pod [MIT licencom](LICENSE). Slobodno za lično i komercijalno ko
 Napravljeno sa 💚 za planetu · 2026 · [nordcappe](https://github.com/nordcappe)
 
 </div>
-
----
-
-## Funkcije
-
-- ✅ Registracija i prijava (email + lozinka)
-- ✅ Uloge: Korisnik, Majstor, Volonter, Admin
-- ✅ Kreiranje i pregled objava za popravku
-- ✅ Slanje i prihvatanje ponuda  
-- ✅ Interaktivna mapa sa lokacijama objava
-- ✅ Admin panel: upravljanje korisnicima i objavama
-- ✅ Blokiranje korisnika, brisanje objava, menjanje uloga
-
----
-
-## Licenca
-
-Pogledajte [LICENSE](LICENSE) fajl.
-
-
-> **Popravi umesto baci** - platforma koja spaja ljude sa pokvarenim predmetima i majstore, hobiste i volontere koji mogu da pomognu.
-
----
-
-## O projektu
-
-EkoServiser je web platforma namenjena stanovnicima Balkana koja olakšava pronalaženje pomoći za popravku svakodnevnih predmeta. Cilj je jednostavan: produžiti životni vek stvari koje već posedujemo i smanjiti nepotrebno bacanje.
-
-Svake godine ogromna količina uređaja, odeće i kućnih predmeta završi na otpadu, iako se mnogi od njih mogu popraviti za svega nekoliko minuta ili uz minimalan trošak. EkoServiser to menja.
-
----
-
-## Kako funkcioniše
-
-1. **Korisnik napravi objavu** - napiše šta je pokvareno, doda sliku i označi lokaciju. Traje manje od jednog minuta.
-2. **Majstori i volonteri u blizini dobijaju notifikaciju** - mogu ponuditi brz savet ili direktnu pomoć besplatno.
-3. **Korisnik bira** - na osnovu ocena, iskustva i udaljenosti odabira osobu koja mu najviše odgovara.
-
-### Primeri objava
-
-- Toster koji ne greje
-- Bicikl kome je spao lanac
-- Jakna kojoj je pukao rajsferšlus
-- Stolica kojoj se klimaju noge
-
----
-
-## Ključne funkcije
-
-| Funkcija | Opis |
-|---|---|
-| **Mapa popravki** | Interaktivna mapa sa majstorima, volonterima i aktivnim objavama u blizini |
-| **Brze objave** | Objava problema za manje od jednog minuta |
-| **Ocene i komentari** | Sistem ocenjivanja koji gradi poverenje u zajednici |
-| **Saveti zajednice** | Drugi korisnici mogu davati uputstva i savete za popravku |
-| **Kategorije** | Pretraga po kategorijama predmeta |
-
----
-
-## Kategorije popravki
-
-- Mali kućni uređaji
-- Bicikli i sportska oprema
-- Odeća i obuća
-- Nameštaj
-- Elektronika
-
----
-
-## Tehnički stack
-
-- **Frontend:** HTML5, CSS3, Vanilla JavaScript
-- **Mapa:** [Leaflet.js](https://leafletjs.com/)
-- *(Backend i mobilna aplikacija - u planu za naredne faze)*
-
----
-
-## Pokretanje lokalno
-
-```bash
-# Kloniranje repozitorijuma
-git clone https://github.com/your-username/EkoServiser.git
-cd EkoServiser
-
-# Otvorite index.html u pregledaču
-# Nema potrebe za serverom - radi kao statična web aplikacija
-start index.html
-```
-
----
-
-## Struktura projekta
-
-```
-EkoServiser/
-├── index.html          # Glavna stranica
-├── css/
-│   └── style.css       # Stilovi
-├── js/
-│   └── app.js          # Logika aplikacije
-└── README.md
-```
-
----
-
-## Društveni i ekološki efekat
-
-- **Smanjuje otpad** - predmeti se koriste duže umesto da završe u smeću
-- **Podstiče kulturu popravljanja** - umesto refleksnog kupovanja novog
-- **Gradi zajednicu** - razmena znanja i pomoći između komšija
-
-### Repair Café događaji
-
-Platforma planira organizaciju lokalnih **repair dana** - događaja gde ljudi donose pokvarene stvari, a majstori i volonteri zajedno pokušavaju da ih poprave. Ovakvi događaji već postoje širom sveta pod imenom *Repair Café* i pokazali su se kao odličan način za smanjenje otpada i povezivanje zajednice.
-
----
-
-## Licenca
-
-Pogledajte [LICENSE](LICENSE) fajl.
-
