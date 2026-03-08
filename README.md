@@ -246,7 +246,7 @@ Dostupni nakon pokretanja `npm run db:seed`:
 
 ## Licenca
 
-Ovaj projekat koristi **EkoServiser Attribution License** — prilagođenu licencu zasnovanu na MIT-u.
+Ovaj projekat koristi **EkoServiser Attribution License** - prilagođenu licencu zasnovanu na MIT-u.
 
 ### Šta smeš
 - ✅ Koristiti projekat lično i komercijalno
@@ -254,14 +254,14 @@ Ovaj projekat koristi **EkoServiser Attribution License** — prilagođenu licen
 - ✅ Distribuirati izmenjene verzije
 
 ### Šta moraš
-- 🔖 **Obavezna atribucija** — u svakoj kopiji, forku ili deployu mora biti vidljivo navedeno:
+- 🔖 **Obavezna atribucija** - u svakoj kopiji, forku ili deployu mora biti vidljivo navedeno:
   ```
-  Originally created by nordcappe — https://github.com/nordcappe/EkoServiser
+  Originally created by nordcappe - https://github.com/nordcappe/EkoServiser
   ```
 
 ### Doprinosi (Contributions)
 - Slobodno otvori **Pull Request** sa poboljšanjima, ispravkama ili novim funkcijama
-- Svaki PR prolazi kroz review — autor ([nordcappe](https://github.com/nordcappe)) odlučuje da li se merge-uje
+- Svaki PR prolazi kroz review - autor ([nordcappe](https://github.com/nordcappe)) odlučuje da li se merge-uje
 - Prihvaćeni doprinosi ulaze u projekat pod istom licencom, a tvoje ime ostaje u Git historiji
 
 Pun tekst licence: [LICENSE](LICENSE)
