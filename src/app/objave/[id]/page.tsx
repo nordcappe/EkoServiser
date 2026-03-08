@@ -153,7 +153,7 @@ export default async function ObjavaDetaljiPage({ params }: Props) {
             </div>
           )}
 
-          {/* Rating form — shown to author when a ponuda was accepted */}
+          {/* Rating form - shown to author when a ponuda was accepted */}
           {jeAutor && prihvacenaPonuda && !vecOcenio && (
             <OcenaForm majstorId={prihvacenaPonuda.majstorId} objavaId={objava.id} />
           )}
@@ -164,7 +164,7 @@ export default async function ObjavaDetaljiPage({ params }: Props) {
           )}
         </div>
 
-        {/* Sidebar — autor */}
+        {/* Sidebar - autor */}
         <div className="space-y-4">
           <div className="rounded-2xl border border-gray-100 bg-white p-6 shadow-soft">
             <h3 className="text-sm font-semibold text-gray-500 mb-4 uppercase tracking-wider">Objavio</h3>
@@ -174,7 +174,7 @@ export default async function ObjavaDetaljiPage({ params }: Props) {
               </div>
               <div>
                 <p className="font-bold text-gray-900">{objava.autor.ime}</p>
-                <p className="text-xs text-gray-500">📍 {objava.autor.grad ?? "—"}</p>
+                <p className="text-xs text-gray-500">📍 {objava.autor.grad ?? "-"}</p>
               </div>
             </div>
             {objava.autor.ocena > 0 && (

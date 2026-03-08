@@ -10,7 +10,7 @@ interface Props {
 
 /**
  * Wraps children in a div that fades + slides in when it enters the viewport.
- * Uses IntersectionObserver — runs only on the client.
+ * Uses IntersectionObserver - runs only on the client.
  */
 export function AnimateIn({ children, className = "", delay = 0 }: Props) {
   const ref = useRef<HTMLDivElement>(null);

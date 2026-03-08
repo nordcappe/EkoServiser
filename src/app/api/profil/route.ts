@@ -45,7 +45,7 @@ export async function PATCH(req: NextRequest) {
     if (bio  !== undefined) updateData.bio  = bio;
     if (telefon !== undefined) updateData.telefon = telefon;
 
-    // Password change — only if both fields are provided
+    // Password change - only if both fields are provided
     if (nova_lozinka) {
       if (!stara_lozinka) {
         return NextResponse.json({ error: "Unesite staru lozinku." }, { status: 400 });

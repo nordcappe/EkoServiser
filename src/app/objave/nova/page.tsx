@@ -113,7 +113,7 @@ export default function NovaObjavaPage() {
           <Select
             name="kategorija"
             label="Kategorija"
-            placeholder="— Izaberi kategoriju —"
+            placeholder="- Izaberi kategoriju -"
             required
             options={KATEGORIJE.map((k) => ({ value: k.id, label: `${k.ikona} ${k.naziv}` }))}
           />

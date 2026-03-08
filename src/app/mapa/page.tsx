@@ -17,7 +17,7 @@ export default async function MapaPage() {
     .map((o) => ({
       lat:   o.lat!,
       lng:   o.lng!,
-      label: `${getKategorija(o.kategorija).ikona} ${o.naslov} — ${o.grad}`,
+      label: `${getKategorija(o.kategorija).ikona} ${o.naslov} - ${o.grad}`,
       type:  "objava" as const,
       id:    o.id,
     }));

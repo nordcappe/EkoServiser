@@ -53,10 +53,10 @@ async function main() {
   // Demo objave
   const kategorije = [
     { naslov: "Toster koji ne greje", kategorija: "kucni-uredjaji", grad: "Beograd", lat: 44.8176, lng: 20.4569 },
-    { naslov: "Bicikl — spao lanac", kategorija: "bicikli", grad: "Novi Sad", lat: 45.2671, lng: 19.8335 },
-    { naslov: "Jakna — pukao rajsferšlus", kategorija: "odeca", grad: "Niš", lat: 43.3209, lng: 21.8954 },
+    { naslov: "Bicikl - spao lanac", kategorija: "bicikli", grad: "Novi Sad", lat: 45.2671, lng: 19.8335 },
+    { naslov: "Jakna - pukao rajsferšlus", kategorija: "odeca", grad: "Niš", lat: 43.3209, lng: 21.8954 },
     { naslov: "Laptop ne pali se", kategorija: "elektronika", grad: "Beograd", lat: 44.8050, lng: 20.4750 },
-    { naslov: "Stolica — klimaju noge", kategorija: "namestaj", grad: "Kragujevac", lat: 44.0165, lng: 20.9270 },
+    { naslov: "Stolica - klimaju noge", kategorija: "namestaj", grad: "Kragujevac", lat: 44.0165, lng: 20.9270 },
   ];
 
   for (const kat of kategorije) {

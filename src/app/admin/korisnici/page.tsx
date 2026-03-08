@@ -3,7 +3,7 @@ import { ROLE_LABELS } from "@/lib/utils";
 import { revalidatePath } from "next/cache";
 import { UserCheck, UserX } from "lucide-react";
 
-export const metadata = { title: "Korisnici — Admin" };
+export const metadata = { title: "Korisnici - Admin" };
 
 export default async function AdminKorisniciPage() {
   const korisnici = await prisma.user.findMany({

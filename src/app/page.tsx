@@ -52,7 +52,7 @@ export default async function HomePage() {
         <div className="relative mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
           <div className="grid items-center gap-12 lg:grid-cols-2">
 
-            {/* Left — text */}
+            {/* Left - text */}
             <div className="animate-slide-up">
               {/* Badge */}
               <div className="mb-6 inline-flex items-center gap-2 rounded-full border border-green-600/50 bg-green-900/60 px-4 py-1.5 text-sm font-semibold text-green-300 backdrop-blur-sm">
@@ -93,12 +93,12 @@ export default async function HomePage() {
               </div>
             </div>
 
-            {/* Right — mockup cards */}
+            {/* Right - mockup cards */}
             <div className="relative hidden lg:block">
               <div className="space-y-4 pl-4">
                 {[
                   { icon: "🍞", title: "Toster koji ne greje",     grad: "Beograd",  ponude: 3, status: "Aktivna",  delay: "0s"   },
-                  { icon: "🚲", title: "Bicikl — spao lanac",       grad: "Novi Sad", ponude: 1, status: "U toku",   delay: ".15s" },
+                  { icon: "🚲", title: "Bicikl - spao lanac",       grad: "Novi Sad", ponude: 1, status: "U toku",   delay: ".15s" },
                   { icon: "💻", title: "Laptop ne pali se",          grad: "Niš",      ponude: 5, status: "Aktivna",  delay: ".3s"  },
                 ].map((item, i) => (
                   <div
@@ -147,7 +147,7 @@ export default async function HomePage() {
               {[
                 { icon: <Recycle size={22} className="text-green-600" />, title: "Manje otpada", desc: "Svaki popravljen predmet je jedan manje na deponiji. Zajedno smanjujemo elektronski i tekstilni otpad." },
                 { icon: <TreePine size={22} className="text-emerald-600" />, title: "Lokalna zajednica", desc: "Povezi se sa strucnjacima u svom gradu i gradi poverenje kroz zajednicu uzajamne pomoci." },
-                { icon: <Globe size={22} className="text-teal-600" />, title: "Cirkularna ekonomija", desc: "Produžujemo vek produktima — suprotstavljamo se kulturi bacanja i promovišemo odgovornu potrošnju." },
+                { icon: <Globe size={22} className="text-teal-600" />, title: "Cirkularna ekonomija", desc: "Produžujemo vek produktima - suprotstavljamo se kulturi bacanja i promovišemo odgovornu potrošnju." },
               ].map((item, i) => (
                 <AnimateIn key={i} delay={i * 120}>
                   <div className="flex gap-4 rounded-2xl border border-gray-100 bg-white p-6 shadow-soft hover:shadow-card hover:border-green-200 transition-all duration-300 group">

@@ -8,7 +8,7 @@ import { Footer } from "@/components/layout/Footer";
 const inter = Inter({ subsets: ["latin"], variable: "--font-inter" });
 
 export const metadata: Metadata = {
-  title: { default: "EkoServiser — Popravi umesto baci", template: "%s | EkoServiser" },
+  title: { default: "EkoServiser - Popravi umesto baci", template: "%s | EkoServiser" },
   description:
     "Platforma koja spaja ljude sa pokvarenim predmetima i majstore, hobiste i volontere koji mogu da pomognu. Popravi umesto baci!",
   keywords: ["popravka", "majstor", "serviser", "reciklaza", "eko", "balkan"],

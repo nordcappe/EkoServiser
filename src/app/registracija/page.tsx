@@ -71,9 +71,9 @@ export default function RegistracijaPage() {
               label="Uloga"
               defaultValue="KORISNIK"
               options={[
-                { value: "KORISNIK",  label: "Korisnik — imam pokvarene predmete" },
-                { value: "MAJSTOR",   label: "Majstor — mogu da pomognem" },
-                { value: "VOLONTER",  label: "Volonter — pomažem besplatno" },
+                { value: "KORISNIK",  label: "Korisnik - imam pokvarene predmete" },
+                { value: "MAJSTOR",   label: "Majstor - mogu da pomognem" },
+                { value: "VOLONTER",  label: "Volonter - pomažem besplatno" },
               ]}
             />
             <Input

@@ -3,7 +3,7 @@ import { STATUS_LABELS, getKategorija, formatRelativeTime } from "@/lib/utils";
 import { revalidatePath } from "next/cache";
 import { Trash2 } from "lucide-react";
 
-export const metadata = { title: "Objave — Admin" };
+export const metadata = { title: "Objave - Admin" };
 
 export default async function AdminObjavaePage() {
   const objave = await prisma.objava.findMany({
